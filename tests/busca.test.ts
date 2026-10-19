@@ -12,7 +12,9 @@ test('normalizar remove acentos e maiúsculas', () => {
 });
 
 test('busca ignora acentos e exige todos os termos', () => {
-  assert.equal(ids('maximoses')[0], 'ultima-evolucao');
+  const maximoses = ids('maximoses');
+  assert.ok(maximoses.includes('ultima-evolucao'));
+  assert.ok(maximoses.every((id) => licoes.find((l) => l.id === id)!.funcoes.includes('MÁXIMOSES')));
   assert.ok(ids('procx').includes('ultima-linha-procx'));
   assert.ok(ids('procx').includes('procx-varios-criterios'));
   assert.ok(ids('ultima data').every((id) => ids('ultima').includes(id)));
