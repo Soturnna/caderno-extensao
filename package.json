@@ -1,0 +1,26 @@
+{
+  "name": "caderno-extensao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Extensão do navegador do Caderno de Soluções: painel lateral com lições de Excel (PT-BR), DAX e SQL.",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "build:edge": "wxt build -b edge",
+    "zip": "wxt zip",
+    "zip:edge": "wxt zip -b edge",
+    "test": "node --experimental-strip-types --no-warnings --test tests/*.test.ts",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@fontsource-variable/source-serif-4": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "wxt": "0.21.4",
+    "vite": "8.3.1"
+  }
+}

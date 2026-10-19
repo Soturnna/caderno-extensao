@@ -1,0 +1,7 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
+  "exclude": ["tests", ".output", "node_modules"]
+}
