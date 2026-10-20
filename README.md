@@ -2,7 +2,7 @@
 
 Extensão para Chrome e Edge que abre, em um painel lateral, as lições de fórmulas Excel (PT-BR), DAX e SQL do time.
 
-**Instalar:** [Chrome Web Store](https://chromewebstore.google.com/detail/ohhdecofbdkkhchjedihdmnfmindmfaa) (em revisão pelo Google desde 19/10/2026).
+**Instalar:** [Chrome Web Store](https://chromewebstore.google.com/detail/ohhdecofbdkkhchjedihdmnfmindmfaa) (publicada em 20/10/2026).
 
 - **Abrir:** clique no ícone da extensão ou use **Alt+Shift+C**.
 - **Conteúdo:** lido de `https://soturnna.github.io/caderno-licoes/licoes.json` (repositório [caderno-licoes](https://github.com/Soturnna/caderno-licoes)). Uma lição nova aparece sem atualizar a extensão.
